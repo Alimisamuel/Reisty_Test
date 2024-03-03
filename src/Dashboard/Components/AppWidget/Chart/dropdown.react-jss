@@ -1,0 +1,12 @@
+const useStyles = createUseStyles(() => ({
+  container: {
+   position: "absolute",
+   right: 10,
+   "& button": {
+     color: "black",
+     border: "1.5px solid #EDEEF1",
+     width: 150,
+     borderRadius: "15px",
+  }
+ }
+}));
